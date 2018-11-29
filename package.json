@@ -1,0 +1,23 @@
+{
+  "name": "nest-js-angular",
+  "version": "1.0.0",
+  "description": "NestJS server + Angular client",
+  "main": "server/dist/main.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/ye-fujin/nest-js-angular.git"
+  },
+  "keywords": [
+    "nestjs",
+    "angular"
+  ],
+  "author": "ye-fujin",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/ye-fujin/nest-js-angular/issues"
+  },
+  "homepage": "https://github.com/ye-fujin/nest-js-angular#readme"
+}
