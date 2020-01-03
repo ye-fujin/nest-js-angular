@@ -1,3 +1,5 @@
+Deprecated, see https://github.com/ye-fujin/angular-universal-nest-js for a newer version of this starter kit
+
 # Description
 
 NestJS server + Angular client = 😍
