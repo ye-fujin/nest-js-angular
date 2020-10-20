@@ -1,9 +1,14 @@
 {
   "name": "nest-js-angular",
-  "version": "1.0.0",
+  "version": "2.0.0",
   "description": "NestJS server + Angular client",
   "main": "server/dist/main.js",
   "scripts": {
+    "install:client": "cd client && npm i",
+    "install:server": "cd server && npm i",
+    "install": "npm run install:client && npm run install:server",
+    "start:client": "cd client && ng build --watch",
+    "start:server": "cd server && npm run start:dev",
     "test": "echo \"Error: no test specified\" && exit 1"
   },
   "repository": {
@@ -19,5 +24,6 @@
   "bugs": {
     "url": "https://github.com/ye-fujin/nest-js-angular/issues"
   },
-  "homepage": "https://github.com/ye-fujin/nest-js-angular#readme"
+  "homepage": "https://github.com/ye-fujin/nest-js-angular#readme",
+  "devDependencies": {}
 }
