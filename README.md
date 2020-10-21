@@ -1,4 +1,4 @@
-### NestJS Angular starter kit
+# NestJS Angular starter kit
 
 ## Description
 
